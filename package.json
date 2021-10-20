@@ -1,0 +1,28 @@
+{
+	"name": "node_heat",
+	"version": "0.0.1",
+	"main": "index.js",
+	"license": "MIT",
+	"type": "module",
+	"scripts": {
+		"dev": "NODE_OPTIONS='--trace-warnings' tsnd --exit-child src/server.ts"
+	},
+	"dependencies": {
+		"@prisma/client": "latest",
+		"axios": "latest",
+		"cors": "latest",
+		"dotenv": "latest",
+		"express": "latest",
+		"jsonwebtoken": "latest",
+		"socket.io": "latest"
+	},
+	"devDependencies": {
+		"@types/cors": "^2",
+		"@types/express": "latest",
+		"@types/jsonwebtoken": "latest",
+		"prisma": "latest",
+		"ts-node-dev": "latest",
+		"typescript": "latest"
+	},
+	"packageManager": "yarn@3.0.2"
+}
